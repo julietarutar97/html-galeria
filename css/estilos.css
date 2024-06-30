@@ -24,9 +24,44 @@ body{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    align-items: center;
+}
+
+.div__logo{
+    width: 85px;
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    border-right: 2px solid rgb(255, 255, 255, 0.1);
 }
 
 
+.input__buscador{
+    color: rgb(255, 255, 255, 0.1);
+    border: none;
+    background: url('imagenes/iconoLupaBlanco.svg') no-repeat 5px center;
+    background-size: 5px 5px;
+    padding: 5px 35px;
+}
+
+.div__imgPerfil{
+    width: 85px;
+    display: flex;
+    justify-content: center;
+    border-left: 2px solid rgb(255, 255, 255, 0.1);
+}
+.img__perfil{
+    border-radius: 50%;
+    width: 35px;
+     height: 35px; 
+    object-fit: cover;
+}
+/* .hr__navBar{
+    border: none;
+    border-left: 1px solid rgb(255, 255, 255, 0.2);
+    height: 100%;
+    margin: 0;
+} */
 /* GALERIA IMAGENES*/
 
 .section__galeria{
@@ -39,7 +74,7 @@ body{
     display: flex;
     flex-direction: column;
 }
-img{
+.img__galeria{
     width: 250px;
     min-height: 250px;
     object-fit: cover;
