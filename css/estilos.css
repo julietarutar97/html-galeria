@@ -35,7 +35,10 @@ body{
     justify-content: center;
     margin: 0 70px;
 }
-
+.div__columna{
+    display: flex;
+    flex-direction: column;
+}
 img{
     width: 250px;
     min-height: 250px;
